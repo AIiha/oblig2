@@ -87,8 +87,20 @@ nav ul ul {
 START CSS OM OSS
 Sindre endrer CSS for om oss
 */
+#bilderOmOss{
+  border-style: solid;
+  border-color: black;
+}
 
+<<<<<<< HEAD
 
+=======
+#bilderOmOss img{
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 150px;
+}
+>>>>>>> origin/master
 /*
 SLUTT CSS OM OSS
 */
