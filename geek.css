@@ -15,25 +15,77 @@ h1 {
 }
 
 h2 {
-	font-size: 5px;
+    font-size: 5px;
 }
 
 header {
-	background-color: #fff;
+    background-color: #fff;
 }
 
-footer {
+footer {}
 
+nav {
+    margin: auto;
+    text-align: center;
 }
 
-.main {
-
+nav ul ul {
+    display: none;
 }
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul {
+    background: #efefef;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15);
+    padding: 0 20px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+
+nav ul:after {
+    clear: both;
+    display: block;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    background: #4b545f;
+}
+
+nav ul li:hover a {
+    color: #fff;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px 40px;
+    color: #102b72;
+}
+
+nav ul ul {
+    background: #5f6975;
+    border-radius: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 100%;
+}
+
+.main {}
+
 
 /*
 START CSS OM OSS
 Sindre endrer CSS for om oss
 */
+
 
 /*
 SLUTT CSS OM OSS
