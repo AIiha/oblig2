@@ -106,7 +106,54 @@ Sindre endrer CSS for om oss
   max-height: 200px;
   max-width: 200px;
   border-radius: 100px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+#omArticle{
+  width: 1300px;
+  height: 600px;
+  border-style: solid;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#txtSindre{
+  width: 300px;
+  height: 600px;
+  border-style: solid;
+  border-color: black;
+  margin-left: 28%;
+}
+
+#txtFredrik{
+  width: 300px;
+  height: 600px;
+  border-style: solid;
+  border-color: black;
+}
+
+#txtBerzi{
+  width: 300px;
+  height: 600px;
+  border-style: solid;
+  border-color: black;
+}
+
+#txtAli{
+  width: 300px;
+  height: 600px;
+  border-style: solid;
+  border-color: black;
+  margin-left: 15%;
+}
+
+#txtTore{
+  width: 300px;
+  height: 600px;
+  border-style: solid;
+  border-color: black;
 }
 /*
 SLUTT CSS OM OSS
