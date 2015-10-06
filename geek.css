@@ -4,7 +4,7 @@ body {
     border: 0px;
     margin: 0px;
     width: auto;
-    height: 1080px;
+    height: auto;
 }
 
 p {
@@ -17,76 +17,25 @@ h1 {
 }
 
 h2 {
-    font-size: 5px;
+	font-size: 5px;
 }
 
 header {
+<<<<<<< HEAD
     background-color: #fff;
     text-align: center;
+=======
+	background-color: #fff;
+>>>>>>> origin/master
 }
 
 footer {
-	
+
 }
 
-nav {
-    margin: auto;
-    text-align: center;
+.main {
+
 }
-
-nav ul ul {
-    display: none;
-}
-
-nav ul li:hover > ul {
-    display: block;
-}
-
-nav ul {
-    background: #efefef;
-    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.15);
-    padding: 0 20px;
-    border-radius: 10px;
-    list-style: none;
-    position: relative;
-    display: inline-table;
-    width: auto;
-}
-
-nav ul:after {
-    clear: both;
-    display: block;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li:hover {
-    background: #4b545f;
-}
-
-nav ul li:hover a {
-    color: #fff;
-}
-
-nav ul li a {
-    display: block;
-    padding: 25px 40px;
-    color: #102b72;
-    width: auto;
-}
-
-nav ul ul {
-    background: #5f6975;
-    border-radius: 0px;
-    padding: 0px;
-    position: absolute;
-    top: 100%;
-}
-
-.main {}
-
 
 /*
 START CSS OM OSS
@@ -97,15 +46,11 @@ Sindre endrer CSS for om oss
   border-color: black;
 }
 
-<<<<<<< HEAD
-
-=======
 #bilderOmOss img{
   max-height: 300px;
   max-width: 300px;
   border-radius: 150px;
 }
->>>>>>> origin/master
 /*
 SLUTT CSS OM OSS
 */
