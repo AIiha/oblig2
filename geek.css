@@ -17,72 +17,208 @@ h1 {
 }
 
 h2 {
-	font-size: 5px;
+    font-size: 5px;
 }
 
 header {
+<<<<<<< HEAD
 /*<<<<<<< HEAD*/
     background-color: #fff;
 /*=======
 >>>>>>> origin/master*/
+=======
+    background-color: #fff;
+>>>>>>> origin/master
 }
 
 footer {
-
+    background-color: #fff;
+    margin: 0%;
+    clear: both;
 }
 
-nav {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1279px;
-    text-align: center;
-    text-decoration: none;
+.follow {text-align: center;}
+#fb {margin: 15px;}
+#youtube {margin: 15px;}
+#snap {margin: 15px;}
+#insta {margin: 15px;}
+#twitter {margin: 15px;}
+#gpluss {margin: 15px;}
 
+
+.main {}
+
+.logo {
+    margin-left: 25px;
+    
+}
+.header { position: relative; }
+#toggle, .toggle { display: none; }
+.menu > li { list-style: none; float:left;  }
+
+/* Nicolas Gallagher micro clearfix */
+.clearfix:before, .clearfix:after { display: table; content: ""; }
+.clearfix:after { clear: both; }
+
+@media only screen and (max-width: 768px){
+    .menu { display: none; opacity: 0; width: 100%; position: absolute; right: 0; }
+    .menu > li { display: block; width: 100%; margin: 0; }
+    .menu > li > a { display: block; width: 100%; text-decoration: none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+    .toggle { display: block; position: relative; cursor: pointer; -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+    #toggle:checked + div .menu { display: block; opacity: 1;}
+}
+
+
+/*--------------------------------
+ Presentation Styles (Editable)
+---------------------------------*/
+.header{
+    min-height: 100px;
+    height: 100%;
+    padding: 0 20px;
+    background: #FFFFFF;
+}
+
+.header > h1 {
+    float: left;
+    padding: 30px 0 0;      
+    font-style: italic;
+    font-family: Georgia;
+    font-size: 28px;
+    color: #DFDFDF;
+}
+
+.nav{ 
+    display: block; 
+    float: right; 
+}
+
+.nav, .menu, .menu > li, .menu > li > a{ 
+    height: 100%; 
+}
+
+.menu > li > a{
+    display: block;
+    padding: 42px 20px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+}
+
+.menu > li > a:hover, .menu > li > a:focus{
+    background: #F2F2F2;
+    box-shadow: inset 0px 5px #51C1F1;
+    color: #51C1F1;
+    padding: 50px 20px 34px;
+}
+
+.toggle{ 
+    z-index: 2; 
+}
+
+@media only screen and (max-width: 768px){
+    .menu{
+        background: #FFFFFF;
+        border-top: 1px solid #51C1F1;
+    }
+    
+    .menu, .menu > li, .menu > li > a{
+        height: auto;
+    }
+    
+    .menu > li > a{
+        padding: 15px 15px;
+    }
+    
+    .menu > li > a:hover, .menu > li > a:focus{
+        background: #F2F2F2;
+        box-shadow: inset 5px 0px #51C1F1;
+        padding: 15px 15px 15px 25px;
+    }
+    
+    .toggle:after {
+        content: attr(data-open);
+        display: block;
+        width: 200px;
+        margin: 33px 0;
+        padding: 10px 50px;
+        background: #51C1F1;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        text-align: center;
+        font-size: 12px;
+        color: #FFFFFF;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+        transition: all 0.5s linear;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
+    }
+    
+    .toggle:hover:after{
+        background: #45ABD6;
+    }
+    
+    #toggle:checked + div .toggle:after{
+        content: attr(data-close);
+    }
+}
+
+@media only screen and (max-width: 479px){
+    .header > h1 { 
+        text-align: center;
+    }
+    .header > h1, .nav, .toggle:after{ 
+        float: none; 
+    }
+    .toggle:after { 
+        text-align: center; width: 100%; 
+    }
+}
+
+/* Meny 
+nav {
+    width: auto;
+    margin: auto;
+    text-align: center;
+    display: block;
 }
 
 nav ul ul {
     display: none;
-    text-align: center;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 nav ul li:hover > ul {
-  display: block;
-
+    display: block;
 }
 
 nav ul {
     background: #efefef;
-    box-shadow: 10px 10px 10px 10px (#000);
-    border-radius: 10px, 10px, 10px, 10px;
+    padding: 0 20px;
+    border-radius: 10px;
     list-style: none;
-    /*position: relative;*/
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1279px;
-    text-align: center;
-    text-decoration: none;
+    position: relative;
+    display: inline-table;
 }
 
 nav ul:after {
     clear: both;
     display: block;
-    text-align: center;
-    text-decoration: none;
 }
 
 nav ul li {
     float: left;
     width: 150px;
-    text-align: center;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 nav ul li:hover {
@@ -105,34 +241,42 @@ nav ul ul {
     padding: 0px;
     position: absolute;
     top: 100%;
-    text-align: center;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.main {}
-
+.meny{
+background-color: #efefef;
+height: 85px;
 /*
 START CSS OM OSS
 Sindre endrer CSS for om oss
 */
+<<<<<<< HEAD
 #bilderOmOss{
   width: 1300px;
   /*border-style: solid;
   border-color: black;*/
   margin-left: auto;
   margin-right: auto;
+=======
+
+#bilderOmOss {
+    width: 1300px;
+    border-style: solid;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+>>>>>>> origin/master
 }
 
-#bilderOmOss img{
-  margin-left: 50px;
-  max-height: 200px;
-  max-width: 200px;
-  border-radius: 100px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+#bilderOmOss img {
+    margin-left: 50px;
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 100px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
+<<<<<<< HEAD
 #omArticle{
   width: 1300px;
   height: 600px;
@@ -140,9 +284,54 @@ Sindre endrer CSS for om oss
   border-color: black;*/
   margin-left: auto;
   margin-right: auto;
+=======
+#omArticle {
+    width: 1300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+>>>>>>> origin/master
 }
 
+<<<<<<< HEAD
+#txtSindre {
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 28%;
+}
 
+#txtFredrik {
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+}
+
+#txtBerzi {
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+}
+
+#txtAli {
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 15%;
+}
+
+#txtTore {
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+=======
 #txtSindre{
   width: 250px;
   height: 600px;
@@ -209,7 +398,21 @@ Sindre endrer CSS for om oss
 
 #omArticle h3{
   text-align: center;
+>>>>>>> origin/master
 }
+
+
 /*
 SLUTT CSS OM OSS
 */
+
+/*
+CSS TJENESTER START
+*/
+
+.service {
+  margin: 0 auto;
+  width: 1000px;
+  height: 900px;
+}
+
