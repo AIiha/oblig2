@@ -73,6 +73,7 @@ nav ul li a {
     display: block;
     padding: 25px 40px;
     color: #102b72;
+    width: auto;
 }
 
 nav ul ul {
