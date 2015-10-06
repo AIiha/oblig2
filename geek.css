@@ -217,7 +217,10 @@ SLUTT CSS OM OSS
 /*
 CSS TJENESTER START
 */
-#oppsett {
 
+.service {
+  margin: 0 auto;
+  width: 1000px;
+  height: 900px;
 }
 
