@@ -21,14 +21,7 @@ h2 {
 }
 
 header {
-<<<<<<< HEAD
-/*<<<<<<< HEAD*/
     background-color: #fff;
-/*=======
->>>>>>> origin/master*/
-=======
-    background-color: #fff;
->>>>>>> origin/master
 }
 
 footer {
@@ -257,13 +250,6 @@ Sindre endrer CSS for om oss
   border-color: black;*/
   margin-left: auto;
   margin-right: auto;
-
-#bilderOmOss {
-    width: 1300px;
-    border-style: solid;
-    border-color: black;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #bilderOmOss img {
@@ -273,59 +259,6 @@ Sindre endrer CSS for om oss
     border-radius: 100px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
-
-#omArticle{
-  width: 1300px;
-  height: 600px;
-  /*border-style: solid;
-  border-color: black;*/
-  margin-left: auto;
-  margin-right: auto;
-
-#omArticle{
-    width: 1300px;
-    height: 600px;
-    border-style: solid;
-    border-color: black;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#txtSindre {
-    width: 300px;
-    height: 600px;
-    border-style: solid;
-    border-color: black;
-    margin-left: 28%;
-}
-
-#txtFredrik {
-    width: 300px;
-    height: 600px;
-    border-style: solid;
-    border-color: black;
-}
-
-#txtBerzi {
-    width: 300px;
-    height: 600px;
-    border-style: solid;
-    border-color: black;
-}
-
-#txtAli {
-    width: 300px;
-    height: 600px;
-    border-style: solid;
-    border-color: black;
-    margin-left: 15%;
-}
-
-#txtTore {
-    width: 300px;
-    height: 600px;
-    border-style: solid;
-    border-color: black;
 
 #txtSindre{
   width: 250px;
