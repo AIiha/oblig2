@@ -17,72 +17,55 @@ h1 {
 }
 
 h2 {
-	font-size: 5px;
+    font-size: 5px;
 }
 
 header {
-/*<<<<<<< HEAD*/
-    background-color: #fff;    
-/*=======
->>>>>>> origin/master*/
+    background-color: #fff;
 }
 
-footer {
+footer {}
 
+.main {}
+
+.logo {
+    margin-left: 25px;
+    
 }
+
+/* Meny */
 
 nav {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1279px;
+    width: auto;
+    margin: auto;
     text-align: center;
-    text-decoration: none;
-
 }
 
 nav ul ul {
     display: none;
-    text-align: center;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 nav ul li:hover > ul {
-  display: block;
-
+    display: block;
 }
 
 nav ul {
     background: #efefef;
-    box-shadow: 10px 10px 10px 10px (#000);
-    border-radius: 10px, 10px, 10px, 10px;
+    padding: 0 20px;
+    border-radius: 10px;
     list-style: none;
-    /*position: relative;*/
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1279px;
-    text-align: center;
-    text-decoration: none;
+    position: relative;
+    display: inline-table;
 }
 
 nav ul:after {
     clear: both;
     display: block;
-    text-align: center;
-    text-decoration: none;
 }
 
 nav ul li {
     float: left;
     width: 150px;
-    text-align: center;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 nav ul li:hover {
@@ -105,80 +88,79 @@ nav ul ul {
     padding: 0px;
     position: absolute;
     top: 100%;
-    text-align: center;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.main {}
-
+.meny{
+background-color: #efefef;
+height: 85px;
 /*
 START CSS OM OSS
 Sindre endrer CSS for om oss
 */
-#bilderOmOss{
-  width: 1300px;
-  border-style: solid;
-  border-color: black;
-  margin-left: auto;
-  margin-right: auto;
+
+#bilderOmOss {
+    width: 1300px;
+    border-style: solid;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#bilderOmOss img{
-  margin-left: 50px;
-  max-height: 200px;
-  max-width: 200px;
-  border-radius: 100px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+#bilderOmOss img {
+    margin-left: 50px;
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 100px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
-#omArticle{
-  width: 1300px;
-  height: 600px;
-  border-style: solid;
-  border-color: black;
-  margin-left: auto;
-  margin-right: auto;
+#omArticle {
+    width: 1300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#txtSindre {
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 28%;
+}
+
+#txtFredrik {
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+}
+
+#txtBerzi {
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+}
+
+#txtAli {
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 15%;
+}
+
+#txtTore {
+    width: 300px;
+    height: 600px;
+    border-style: solid;
+    border-color: black;
 }
 
 
-#txtSindre{
-  width: 300px;
-  height: 600px;
-  border-style: solid;
-  border-color: black;
-  margin-left: 28%;
-}
-
-#txtFredrik{
-  width: 300px;
-  height: 600px;
-  border-style: solid;
-  border-color: black;
-}
-
-#txtBerzi{
-  width: 300px;
-  height: 600px;
-  border-style: solid;
-  border-color: black;
-}
-
-#txtAli{
-  width: 300px;
-  height: 600px;
-  border-style: solid;
-  border-color: black;
-  margin-left: 15%;
-}
-
-#txtTore{
-  width: 300px;
-  height: 600px;
-  border-style: solid;
-  border-color: black;
-}
 /*
 SLUTT CSS OM OSS
 */
