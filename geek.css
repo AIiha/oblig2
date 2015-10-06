@@ -106,6 +106,7 @@ Sindre endrer CSS for om oss
   max-height: 200px;
   max-width: 200px;
   border-radius: 100px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 /*
 SLUTT CSS OM OSS
