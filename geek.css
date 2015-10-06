@@ -4,7 +4,7 @@ body {
     border: 0px;
     margin: 0px;
     width: auto;
-    height: auto;
+    height: 1080px;
 }
 
 p {
@@ -49,6 +49,7 @@ nav ul {
     list-style: none;
     position: relative;
     display: inline-table;
+    width: auto;
 }
 
 nav ul:after {
