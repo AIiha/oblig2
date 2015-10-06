@@ -42,6 +42,7 @@ Sindre endrer CSS for om oss
 #bilderOmOss img{
   max-height: 300px;
   max-width: 300px;
+  border-radius: 150px;
 }
 /*
 SLUTT CSS OM OSS
