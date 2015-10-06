@@ -179,6 +179,10 @@ Sindre endrer CSS for om oss
   border-style: solid;
   border-color: black;
 }
+
+#omArticle h3{
+  text-align: center;
+}
 /*
 SLUTT CSS OM OSS
 */
