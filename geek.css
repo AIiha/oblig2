@@ -22,7 +22,7 @@ h2 {
 
 header {
 /*<<<<<<< HEAD*/
-    background-color: #fff;    
+    background-color: #fff;
 /*=======
 >>>>>>> origin/master*/
 }
@@ -152,6 +152,10 @@ Sindre endrer CSS for om oss
   margin-top: -47%;
 }
 
+#txtSindre p{
+  padding: 8px 8px 8px 8px;
+}
+
 #txtFredrik{
   width: 250px;
   height: 600px;
@@ -159,6 +163,10 @@ Sindre endrer CSS for om oss
   border-color: black;
   margin-top: -46.5%;
   margin-left: 60%;
+}
+
+#txtFredrik p{
+  padding: 8px 8px 8px 8px;
 }
 
 #txtBerzi{
@@ -170,12 +178,20 @@ Sindre endrer CSS for om oss
   margin-left: 41%;
 }
 
+#txtBerzi p{
+  padding: 8px 8px 8px 8px;
+}
+
 #txtAli{
   width: 250px;
   height: 600px;
   border-style: solid;
   border-color: black;
   margin-left: 1%;
+}
+
+#txtAli p{
+  padding: 8px 8px 8px 8px;
 }
 
 #txtTore{
@@ -185,6 +201,10 @@ Sindre endrer CSS for om oss
   border-color: black;
   margin-top: -46.5%;
   margin-left: 80%;
+}
+
+#txtTore p{
+  padding: 8px 8px 8px 8px;
 }
 
 #omArticle h3{
