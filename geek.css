@@ -26,6 +26,8 @@ header {
 
 footer {
     background-color: #fff;
+    margin: 0%;
+    clear: both;
 }
 
 .follow {text-align: center;}
