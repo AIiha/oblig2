@@ -34,7 +34,15 @@ footer {
 START CSS OM OSS
 Sindre endrer CSS for om oss
 */
+#bilderOmOss{
+  border-style: solid;
+  border-color: black;
+}
 
+#bilderOmOss img{
+  max-height: 300px;
+  max-width: 300px;
+}
 /*
 SLUTT CSS OM OSS
 */
