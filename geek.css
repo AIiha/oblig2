@@ -144,40 +144,47 @@ Sindre endrer CSS for om oss
 
 
 #txtSindre{
-  width: 300px;
+  width: 250px;
   height: 600px;
   border-style: solid;
   border-color: black;
-  margin-left: 28%;
+  margin-left: 21%;
+  margin-top: -47%;
 }
 
 #txtFredrik{
-  width: 300px;
+  width: 250px;
   height: 600px;
   border-style: solid;
   border-color: black;
+  margin-top: -46.5%;
+  margin-left: 60%;
 }
 
 #txtBerzi{
-  width: 300px;
+  width: 250px;
   height: 600px;
   border-style: solid;
   border-color: black;
+  margin-top: -46.5%;
+  margin-left: 41%;
 }
 
 #txtAli{
-  width: 300px;
+  width: 250px;
   height: 600px;
   border-style: solid;
   border-color: black;
-  margin-left: 15%;
+  margin-left: 1%;
 }
 
 #txtTore{
-  width: 300px;
+  width: 250px;
   height: 600px;
   border-style: solid;
   border-color: black;
+  margin-top: -46.5%;
+  margin-left: 80%;
 }
 
 #omArticle h3{
