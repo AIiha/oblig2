@@ -1,5 +1,6 @@
 body {
-    background-image: url("        ");
+    background: linear-gradient(#585b61, #77787d);
+    /*background-image: url("        ");*/
     border: 0px;
     margin: 0px;
 }
@@ -15,4 +16,16 @@ h1 {
 
 h2 {
 	font-size: 5px;
+}
+
+header {
+	background-color: #fff;
+}
+
+footer {
+
+}
+
+.main {
+
 }
