@@ -361,8 +361,17 @@ SLUTT CSS OM OSS
 CSS TJENESTER START
 */
 
+.serviceHeader{
+  margin-left: auto;
+  position: center;
+  width: 1000px;
+  display:inline;
+}
+
 .service {
   margin: 0 auto;
   width: 1000px;
   height: 900px;
+  background-color: #A4A4A4;
+  margin-bottom: 50px;
 }
