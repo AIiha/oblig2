@@ -21,7 +21,14 @@ h2 {
 }
 
 header {
+<<<<<<< HEAD
+/*<<<<<<< HEAD*/
     background-color: #fff;
+/*=======
+>>>>>>> origin/master*/
+=======
+    background-color: #fff;
+>>>>>>> origin/master
 }
 
 footer {
@@ -252,12 +259,29 @@ Sindre endrer CSS for om oss
   margin-right: auto;
 }
 
-#bilderOmOss img {
+#bilderOmOss {
+    width: 1300px;
+    border-style: solid;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bilderOmOss img{
     margin-left: 50px;
     max-height: 200px;
     max-width: 200px;
     border-radius: 100px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+#omArticle{
+  width: 1300px;
+  height: 600px;
+  /*border-style: solid;
+  border-color: black;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #txtSindre{
