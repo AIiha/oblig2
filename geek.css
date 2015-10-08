@@ -120,6 +120,13 @@ footer {
     padding: 50px 20px 34px;
 }
 
+.ignoreJS{
+  -webkit-transition: all 0s linear;
+  -moz-transition: all 0s linear;
+  -o-transition: all 0s linear;
+  transition: all 0s linear;
+}
+
 .toggle{
     z-index: 2;
 }
