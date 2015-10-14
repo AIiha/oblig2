@@ -186,6 +186,10 @@ footer {
     }
 }
 
+@media print{
+  /*skjul bilder i print*/
+}
+
 /* Meny
 nav {
     width: auto;
@@ -358,6 +362,9 @@ Sindre endrer CSS for om oss
   margin-left: 25%;
 }
 
+@media only screen and (max-width: 600px){
+
+}
 
 /*
 SLUTT CSS OM OSS
@@ -368,18 +375,31 @@ CSS TJENESTER START
 */
 
 .serviceHeader{
-  margin-left: auto;
-  position: center;
+  border: 1px solid red;
+  margin-left: 0 auto;
+  margin-top: 10px;
   width: 1000px;
-  display:inline;
+  height: 80px;
+  display:inline-block;
 }
 
 .service {
   margin: 0 auto;
   width: 1000px;
   height: 900px;
-  background-color: #A4A4A4;
+  border:1px solid black;
   margin-bottom: 50px;
+}
+
+#setup {
+
+}
+
+#cleaner{
+
+}
+
+#konsult{
 }
 
 /*
