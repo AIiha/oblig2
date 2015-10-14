@@ -379,6 +379,7 @@ CSS CHAT BOKS
   width: 175px;
   height: 35px;
   margin-right: 50px;
+  position: absolute;
 }
 
 #chat {
