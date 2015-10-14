@@ -378,9 +378,8 @@ CSS TJENESTER START
   border: 1px solid red;
   margin-left: 0 auto;
   margin-top: 10px;
-  position: center;
   width: 1000px;
-  height: 100px;
+  height: 80px;
   display:inline-block;
 }
 
@@ -401,7 +400,6 @@ CSS TJENESTER START
 }
 
 #konsult{
-  list-style: none;
 }
 
 /*
