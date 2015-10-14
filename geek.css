@@ -246,10 +246,15 @@ nav ul ul {
 .meny{
 background-color: #efefef;
 height: 85px;
+
 /*
 START CSS OM OSS
 Sindre endrer CSS for om oss
 */
+
+#omTittel{
+  margin-right: 20%;
+}
 
 #bilderOmOss{
   width: 1300px;
@@ -350,8 +355,7 @@ Sindre endrer CSS for om oss
 }
 
 #omArticle h3{
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 25%;
 }
 
 
