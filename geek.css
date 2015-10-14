@@ -363,11 +363,53 @@ Sindre endrer CSS for om oss
 }
 
 @media only screen and (max-width: 600px) and (orientation: portrait){
-  p{
-    color: red;
+  #omArticle{
+    height: 200px;
   }
-}
 
+  #omTittel{
+    margin-right: 5%;
+  }
+
+  #bilderOmOss img{
+
+    display: block;
+    margin-bottom: 21%;
+    margin-left: 13%;
+  }
+
+  #txtAli{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+  }
+
+
+  #txtSindre{
+    position: absolute;
+    top: 129%;
+    left: 4%;
+  }
+
+  #txtBerzi{
+    position: absolute;
+    top: 180%;
+    left: -15%;
+  }
+
+  #txtFredrik{
+    position: absolute;
+    top: 230%;
+    left: -35%;
+  }
+
+  #txtTore{
+    position: absolute;
+    top: 280%;
+    left: -55%;
+  }
+
+}
 /*
 SLUTT CSS OM OSS
 */
