@@ -420,7 +420,6 @@ CSS TJENESTER START
 .serviceHeader{
   width: 1000px;
   margin: 0 auto;
-  /*border: 1px solid red;*/  
 }
 .subService h4{
   margin-left: 200px;
@@ -443,21 +442,21 @@ CSS TJENESTER START
 }
 
 .service {
+  border: 2px solid black;
+  color: #FFFFFF;
   margin: 0 auto;
   width: 1000px;
   height: 900px;
-  border:1px solid black;
   margin-bottom: 50px;
   list-style: none;
   list-style-type: none;
 }
 
-.konsultListe{
-  position: static;
+.konsultListe h4:hover{
+    opacity: 0.7;
 }
 
 .konsultListe ul{
-  border: 1px solid red;
   list-style-type: none;
 }
 
