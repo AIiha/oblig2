@@ -376,11 +376,12 @@ CSS TJENESTER START
 
 .serviceHeader{
   border: 1px solid red;
-  margin-left: 0 auto;
-  margin-top: 10px;
   width: 1000px;
   height: 80px;
-  display:inline-block;
+  margin: 0 auto;
+}
+.subService{
+  display: inline-block;
 }
 
 .service {
@@ -389,17 +390,29 @@ CSS TJENESTER START
   height: 900px;
   border:1px solid black;
   margin-bottom: 50px;
+  list-style: none;
+  list-style-type: none;
+}
+
+.konsultListe{
+  position: static;
+}
+
+.konsultListe ul{
+  border: 1px solid red;
+  list-style-type: none;
 }
 
 #setup {
-
+  border: 1px solid black;
 }
 
 #cleaner{
-
+  border: 1px solid red;
 }
 
 #konsult{
+  border: 1px solid black;
 }
 
 /*
