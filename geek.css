@@ -375,15 +375,24 @@ SLUTT CSS OM OSS
 /*
 CSS TJENESTER START
 */
+#illustrasjonsBilder img{
+    margin-left: 50px;
+    margin-top: 10px;
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 100px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
 
 .serviceHeader{
-  border: 1px solid red;
   width: 1000px;
   height: 80px;
   margin: 0 auto;
 }
-.subService{
+.subService h4{
+  margin-left: 200px;
   display: inline-block;
+  border: 1px solid red;
 }
 
 .service {
@@ -405,17 +414,14 @@ CSS TJENESTER START
   list-style-type: none;
 }
 
-#setup {
-  border: 1px solid black;
+#konsult h1:hover {
+  opacity: 0.5;
 }
 
-#cleaner{
-  border: 1px solid red;
+#konsult p{
+  display:none;
 }
 
-#konsult{
-  border: 1px solid black;
-}
 
 /*
 CSS CHAT BOKS
