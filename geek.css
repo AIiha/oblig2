@@ -34,6 +34,11 @@ a{
   color: black;
 }
 
+#logo img{
+	height: 56px;
+	width: 300px;
+}
+
 .follow {text-align: center;}
 #fb {margin: 15px;}
 #youtube {margin: 15px;}
