@@ -417,8 +417,18 @@ SLUTT CSS OM OSS
 /*
 CSS TJENESTER START
 */
+.serviceHeader{
+  width: 1000px;
+  margin: 0 auto;
+  /*border: 1px solid red;*/  
+}
+.subService h4{
+  margin-left: 200px;
+  display: inline-block;
+}
+
 #illustrasjonsBilder img{
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 10px;
     max-height: 200px;
     max-width: 200px;
@@ -426,15 +436,10 @@ CSS TJENESTER START
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
-.serviceHeader{
-  width: 1000px;
-  height: 80px;
-  margin: 0 auto;
-}
-.subService h4{
-  margin-left: 200px;
-  display: inline-block;
-  border: 1px solid red;
+#illustrasjonsBilder{
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .service {
