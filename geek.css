@@ -21,14 +21,7 @@ h2 {
 }
 
 header {
-<<<<<<< HEAD
-/*<<<<<<< HEAD*/
     background-color: #fff;
-/*=======
->>>>>>> origin/master*/
-=======
-    background-color: #fff;
->>>>>>> origin/master
 }
 
 footer {
@@ -392,7 +385,7 @@ CSS CHAT BOKS
 .chat {
   float: right;
   border-radius: 10px 10px 0px 0px;
-  background: linear-gradient(#fcfcfc, #d5d5d5); 
+  background: linear-gradient(#fcfcfc, #d5d5d5);
   width: 175px;
   height: 35px;
   margin-right: 50px;
